@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color:aliceblue;
+}
+
+.container{
+    position: absolute;
+    top: 20vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(62, 62, 62);
+    border-radius: 1px;
+}
+
+input[type="text"]{
+    font-size: 25px;
+    line-height: 35px;
+    background-color: rgb(193, 193, 193);
+    color: black;
+    padding-left: 3px;
+}
+
+input[type="text"]::placeholder{
+    color: black;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 2px;
+}
+
+.buttons input{
+    background-color: antiquewhite;
+    border: none;
+    padding: 15px 0;
+    margin: 2px;
+    border-radius: 1px;
+    font-size: 20px;
+}
+
+.main{
+    width: 110px;
+    height: 30px;
+    border: 1px solid black;
+}
